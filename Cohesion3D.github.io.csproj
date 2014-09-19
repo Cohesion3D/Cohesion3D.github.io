@@ -53,10 +53,15 @@
     <Content Include="font-awesome-4.2.0\css\font-awesome.css" />
     <Content Include="font-awesome-4.2.0\css\font-awesome.min.css" />
     <Content Include="font-awesome-4.2.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="index-old.html" />
     <Content Include="index.html" />
+    <Content Include="LandingPage\LandingPage.html" />
+    <Content Include="LandingPage\Ninja.jpg" />
     <Content Include="test\Bootstrap Example 2.htm" />
     <Content Include="test\Bootstrap Example 3.htm" />
     <Content Include="test\Navbar Test 1.html" />
+    <Content Include="test\Navbar Test 2.html" />
+    <Content Include="test\Template.html" />
     <Content Include="test\test1.html" />
   </ItemGroup>
   <ItemGroup>
