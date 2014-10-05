@@ -1,5 +1,0 @@
-C:\Users\Ray\Documents\GitHub\Cohesion3D.github.io\bin\Cohesion3D.github.io.dll
-C:\Users\Ray\Documents\GitHub\Cohesion3D.github.io\bin\Cohesion3D.github.io.pdb
-C:\Users\Ray\Documents\GitHub\Cohesion3D.github.io\obj\Debug\Cohesion3D.github.io.csprojResolveAssemblyReference.cache
-C:\Users\Ray\Documents\GitHub\Cohesion3D.github.io\obj\Debug\Cohesion3D.github.io.dll
-C:\Users\Ray\Documents\GitHub\Cohesion3D.github.io\obj\Debug\Cohesion3D.github.io.pdb
