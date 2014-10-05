@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7622C7B-8B30-4A27-8DA9-FE8E89C88B3E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cohesion3D.github.io</RootNamespace>
+    <AssemblyName>Cohesion3D.github.io</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="shortcodes.html" />
+    <Content Include="_include\css\bootstrap-responsive.min.css" />
+    <Content Include="_include\css\bootstrap.min.css" />
+    <Content Include="_include\css\fancybox\blank.gif" />
+    <Content Include="_include\css\fancybox\fancybox_loading.gif" />
+    <Content Include="_include\css\fancybox\fancybox_overlay.png" />
+    <Content Include="_include\css\fancybox\fancybox_sprite.png" />
+    <Content Include="_include\css\fancybox\jquery.fancybox.css" />
+    <Content Include="_include\css\fonts.css" />
+    <Content Include="_include\css\fonts\Icons.svg" />
+    <Content Include="_include\css\main.css" />
+    <Content Include="_include\css\responsive.css" />
+    <Content Include="_include\css\shortcodes.css" />
+    <Content Include="_include\css\supersized.css" />
+    <Content Include="_include\css\supersized.shutter.css" />
+    <Content Include="_include\img\filter-icon.png" />
+    <Content Include="_include\img\filter-icon_%402x.png" />
+    <Content Include="_include\img\logo.png" />
+    <Content Include="_include\img\logo_%402x.png" />
+    <Content Include="_include\img\menu-mobile.png" />
+    <Content Include="_include\img\menu-mobile_%402x.png" />
+    <Content Include="_include\img\profile\profile-01.jpg" />
+    <Content Include="_include\img\profile\profile-02.jpg" />
+    <Content Include="_include\img\profile\profile-03.jpg" />
+    <Content Include="_include\img\slider-images\image01.png" />
+    <Content Include="_include\img\supersized\back.png" />
+    <Content Include="_include\img\supersized\bg-black.png" />
+    <Content Include="_include\img\supersized\bg-hover.png" />
+    <Content Include="_include\img\supersized\button-tray-down.png" />
+    <Content Include="_include\img\supersized\button-tray-up.png" />
+    <Content Include="_include\img\supersized\forward.png" />
+    <Content Include="_include\img\supersized\nav-bg.png" />
+    <Content Include="_include\img\supersized\nav-dot.png" />
+    <Content Include="_include\img\supersized\pause.png" />
+    <Content Include="_include\img\supersized\play.png" />
+    <Content Include="_include\img\supersized\progress-back.png" />
+    <Content Include="_include\img\supersized\progress-bar.png" />
+    <Content Include="_include\img\supersized\progress.gif" />
+    <Content Include="_include\img\supersized\supersized-logo.png" />
+    <Content Include="_include\img\supersized\thumb-back.png" />
+    <Content Include="_include\img\supersized\thumb-forward.png" />
+    <Content Include="_include\img\work\full\image-01-full.jpg" />
+    <Content Include="_include\img\work\full\image-02-full.jpg" />
+    <Content Include="_include\img\work\full\image-03-full.jpg" />
+    <Content Include="_include\img\work\full\image-04-full.jpg" />
+    <Content Include="_include\img\work\full\image-05-full.jpg" />
+    <Content Include="_include\img\work\full\image-06-full.jpg" />
+    <Content Include="_include\img\work\full\image-07-full.jpg" />
+    <Content Include="_include\img\work\thumbs\image-01.jpg" />
+    <Content Include="_include\img\work\thumbs\image-02.jpg" />
+    <Content Include="_include\img\work\thumbs\image-03.jpg" />
+    <Content Include="_include\img\work\thumbs\image-04.jpg" />
+    <Content Include="_include\img\work\thumbs\image-05.jpg" />
+    <Content Include="_include\img\work\thumbs\image-06.jpg" />
+    <Content Include="_include\img\work\thumbs\image-07.jpg" />
+    <Content Include="_include\img\work\thumbs\image-08.jpg" />
+    <Content Include="_include\img\work\thumbs\image-09.jpg" />
+    <Content Include="_include\js\bootstrap.min.js" />
+    <Content Include="_include\js\jquery.fancybox-media.js" />
+    <Content Include="_include\js\jquery.fancybox.pack.js" />
+    <Content Include="_include\js\jquery.isotope.js" />
+    <Content Include="_include\js\jquery.tweet.js" />
+    <Content Include="_include\js\main.js" />
+    <Content Include="_include\js\modernizr.js" />
+    <Content Include="_include\js\placeholder.js" />
+    <Content Include="_include\js\plugins.js" />
+    <Content Include="_include\js\supersized.3.2.7.min.js" />
+    <Content Include="_include\js\waypoints-sticky.js" />
+    <Content Include="_include\js\waypoints.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_include\css\fonts\.DS_Store" />
+    <Content Include="_include\css\fonts\Icons.eot" />
+    <Content Include="_include\css\fonts\Icons.ttf" />
+    <Content Include="_include\css\fonts\Icons.woff" />
+    <Content Include="_include\img\.DS_Store" />
+    <Content Include="_include\img\slider-images\.DS_Store" />
+    <Content Include="_include\img\supersized\.DS_Store" />
+    <Content Include="_include\js\.DS_Store" />
+    <Content Include="_include\js\twitter\index.php" />
+    <Content Include="_include\js\twitter\lib\tmhOAuth.php" />
+    <Content Include="_include\js\twitter\lib\tmhUtilities.php" />
+    <Content Include="_include\php\.DS_Store" />
+    <Content Include="_include\php\contact.php" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8888</DevelopmentServerPort>
+          <DevelopmentServerVPath>/Cohesion3D/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65375/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
