@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="include\img\favicon.ico" />
     <Content Include="index.html" />
     <Content Include="shortcodes.html" />
     <Content Include="include\css\bootstrap-responsive.min.css" />
