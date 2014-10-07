@@ -12,6 +12,10 @@ Version: 1.0
    Basic Styles
 ================================================== */
 
+.info-main-text {
+    line-height:20px;
+}
+
 html, body {
     height: 100%;
 }
